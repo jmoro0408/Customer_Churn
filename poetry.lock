@@ -1481,6 +1481,27 @@ files = [
 traitlets = "*"
 
 [[package]]
+name = "missingno"
+version = "0.5.2"
+description = "Missing data visualization module for Python."
+category = "main"
+optional = false
+python-versions = "*"
+files = [
+    {file = "missingno-0.5.2-py3-none-any.whl", hash = "sha256:55782621ce09ba0f0a1d08e5bd6d6fe1946469fb03951fadf7d209911ca5b072"},
+    {file = "missingno-0.5.2.tar.gz", hash = "sha256:4a4baa9ca9f9e4e0d9402455df26b656632e94b99e87fa64c0cdbbbc722837ac"},
+]
+
+[package.dependencies]
+matplotlib = "*"
+numpy = "*"
+scipy = "*"
+seaborn = "*"
+
+[package.extras]
+tests = ["pytest", "pytest-mpl"]
+
+[[package]]
 name = "mistune"
 version = "3.0.2"
 description = "A sane and fast Markdown parser with useful plugins and renderers"
@@ -2955,4 +2976,4 @@ testing = ["big-O", "jaraco.functools", "jaraco.itertools", "more-itertools", "p
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.9"
-content-hash = "32643a4ebb366292129023ffb307e248118eec8b7edf29eefe6cb9b01a758995"
+content-hash = "41aa4f35fb47a450219f6773e328a012c23a816c7b7fbd0b9be97be759cc587a"
