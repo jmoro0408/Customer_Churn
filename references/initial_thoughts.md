@@ -6,3 +6,11 @@
 
 Questions
 1. Do I need to stratify traintest on unique customer ID as well?
+
+
+Notes
+1. When scaling - look at distribution and apply log where necessary - future work
+2. Future work - Use word embeddings instead of OHE for categorical features
+
+Potential Qs:
+1. Why normalization over scaling? -> better when distribution is non gaussian
