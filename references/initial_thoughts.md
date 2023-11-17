@@ -11,6 +11,11 @@ Questions
 Notes
 1. When scaling - look at distribution and apply log where necessary - future work
 2. Future work - Use word embeddings instead of OHE for categorical features
+3. Future work - Hyperparameter tuning
+4. Future work - Featur eenigneer is customer has previously churned 
+5. Future Work - Convert all to .py scripts, convert to functions add type hunts docstrings 
 
 Potential Qs:
 1. Why normalization over scaling? -> better when distribution is non gaussian
+2. Do I need to worry about CV sdplitting due to time component?
+3. Why does seting class weights make it even worse?
