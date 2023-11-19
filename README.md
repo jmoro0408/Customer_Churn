@@ -42,3 +42,4 @@ See `/references/question.md`
 * Attempt to use word embeddings for specific categorical features where it makes sense, rather than one-got encoding all
 * Convert all working to .py scripts, add functions/classes, and include docstrings and type hints
 * Convert X_test_cleaning class to Sklearn pipeline - this will allow for easy ingestion of new data and better handling of data/features not seen in the training data. 
+* Potentially adjust prediction threshold to increase false positives - catching more possible customer churn at the expense of possibly mis-classifying customers who are not leaving (i.e decreasing precision and increasing recall). This possible benefits and issues with this would need to be discussed and agreed with the client. 
