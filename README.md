@@ -1,7 +1,7 @@
 # Customer_Churn
 
 # Folder Structure 
-
+```
 ├── README.md          <- The top-level README for this project.
 ├── data
 │   ├── interim        <- Intermediate data that has been transformed.
@@ -15,7 +15,7 @@
 ├── references         <- Instructions and Questions markdown files. 
 │
 ├── reports            <- Generated analysis as HTML, PDF, LaTeX, etc.
-
+```
 # Answers/explanations to task based questions
 ## Problem area
 
